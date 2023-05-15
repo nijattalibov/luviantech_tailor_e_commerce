@@ -1,7 +1,7 @@
 location /static {
-    alias   /luviantech/static/;
+    alias   /code/static/;
 }
 
 location /media {
-    alias   /luviantech/media/;
+    alias   /code/media/;
 }
