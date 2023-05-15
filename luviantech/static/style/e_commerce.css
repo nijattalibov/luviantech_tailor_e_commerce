@@ -1,0 +1,58 @@
+.makedisable{
+    background-color: #dee2e6!important
+}
+
+.chg-quantity{
+    width: 30px;
+}
+
+/* Pagination container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Pagination links */
+  .pagination a {
+    color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Current page */
+  .pagination .current {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Previous and next page links */
+  .pagination .previous,
+  .pagination .next {
+    font-weight: bold;
+  }
+  
+  /* Disabled page links */
+  .pagination .disabled {
+    color: #aaa;
+    pointer-events: none;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .pagination {
+      flex-wrap: wrap;
+    }
+    
+    .pagination a {
+      margin-bottom: 5px;
+    }
+  }
+  

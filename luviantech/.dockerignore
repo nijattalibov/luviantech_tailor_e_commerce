@@ -1,0 +1,10 @@
+.venv/
+_frontend/
+media/
+contributors.txt
+*.pyc
+.git/
+_backup/
+_data/
+_development/
+pgadmin
